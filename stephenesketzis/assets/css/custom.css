@@ -1,0 +1,45 @@
+img.wp-smiley,
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+#lead_popup_overlay{position:fixed;top:0;right:0; left:0;bottom:0;background: rgba(0, 0, 0, 0.5); z-index:999999;}
+#lead_popup_wrapper{position:absolute; left:50%; top:50%; background:rgb(255,255,255); width:850px; margin-left:-425px; max-width:99%}
+#lead_popup_content{text-align: center; padding: 10px 0 30px;}
+#lead_popup_content > img{margin-bottom:30px; width:60%; cursor:pointer;}
+
+#lead_popup_header{text-transform:uppercase; color: #000000; font-size:14px; font-weight:700}
+#lead_popup_header .progress{width:90%; margin:0 auto; height:15px;}
+#lead_popup_header .progress .progress-bar.active, #lead_popup_header .progress .progress.active .progress-bar{  -webkit-animation: progress-bar-stripes 0.4s linear infinite;  -o-animation: progress-bar-stripes 0.4s linear infinite;  animation: progress-bar-stripes 0.4s linear infinite;}
+
+#lead_popup_content_main{width:85%; margin:20px auto;}
+#lead_popup_content_main p{font-family: Helvetica, Arial, sans-serif; font-size:13px;border-bottom: 1px solid #dadada}
+#lead_popup_content_main p strong{font-family: Helvetica, Arial, sans-serif; font-size:13px;}
+#lead_popup_content_main h3{font-size:24px; font-weight:700; color: #000000}
+#lead_popup_content_main .lead_form input{border-radius:0; padding:13px; border: 1px solid #C9D7DD; font-size: 1.2em; line-height: 1.2em;color: #201D1D; background-color: #ffffff; height:auto; margin:0 auto; width:90%}
+
+#leadpages-form-image{margin-top:20px;}
+
+#lead_popup_button{font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 20px;background-color: rgb(58, 124, 179); border:0; text-shadow: rgb(33, 35, 36) 2px 2px 0; width:96%; border-radius:3px; margin:0 auto; font-weight:700; height:auto; padding:5px 13px 13px;; }
+#lead_popup_button *{color: #ffffff; font-family: 'Open Sans', Helvetica, Arial, sans-serif;}
+#lead_popup_button span.raquo{    font-size: 1.4em;  font-style: normal;  padding-left: 0.2em;}
+#lead_popup_close{background: #000000; border-radius:50%; border:2px solid #ffffff;  cursor:pointer; font-size:17px; font-weight:400; color:#fff; padding:0 8px; position:absolute; right:-12px;top:-13px;font-family:sans-serif;}
+
+.has-error .form-control{    border-color: #a94442 !important;  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;  box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;}
+
+@media screen and (max-width: 767px){
+    .gs-bar{display: none !important;}
+    #lead_popup_wrapper{margin-top:0 !important; left:10px;top:15px; max-width:92%; margin-left:0;}
+    #leadpages-form-image{width:25%;}
+    #lead_popup_content_main h3{font-size:18px;}
+    #lead_popup_content_main .lead_form input{font-size: 1em; line-height: 1em; padding:8px 10px 7px;}
+    #lead_popup_button{font-size:12px; padding: 5px 13px 10px;}
+}
